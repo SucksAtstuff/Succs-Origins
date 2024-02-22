@@ -1,0 +1,8 @@
+{
+    "source.succsorigins.americandeath": {
+        "category": "player",
+        "sounds": [
+            "succsorigins:sounds/taps"
+        ]
+    }
+}

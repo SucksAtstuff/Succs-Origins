@@ -1,0 +1,16 @@
+{
+    "name": "Fragile body",
+    "description": "Your small stature comes with a downside, making you more susceptible to damage.",
+    "condition": {
+        "type": "origins:gamemode",
+        "gamemode": "survival"
+    },
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": -13
+    },
+    "tick_rate": 20,
+    "update_health": true
+}

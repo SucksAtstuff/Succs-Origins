@@ -1,0 +1,27 @@
+{
+    "name": "Dislike cold",
+    "description": "While in cold Biomes, you lose energy and start taking damage.",
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:resource",
+                "resource": "succsorigins:sunborn/energy",
+                "comparison": "==",
+                "compare_to": 0
+            },
+            {
+                "type": "origins:biome",
+                "biomes": [
+                    "minecraft:frozen_peaks"
+                ]
+            }
+        ]
+    },
+    "type": "origins:damage_over_time",
+    "interval": 20,
+    "onset_delay": 40,
+    "damage": 1,
+    "damage_type": "minecraft:freeze",
+    "protection_effectiveness": 1
+}

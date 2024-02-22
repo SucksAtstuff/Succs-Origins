@@ -1,0 +1,12 @@
+{
+    "name": "Vulnerability to Flames",
+    "description": "The chilling nature of the Cryo Mage makes them particularly susceptible to fire. They take additional damage from fire-based attacks, emphasizing the delicate balance between freezing foes and avoiding the scorching power of flames.",
+    "condition": {
+        "type": "origins:on_fire"
+    },
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+        "operation": "addition",
+        "value": 3
+    }
+}

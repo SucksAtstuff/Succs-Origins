@@ -1,0 +1,28 @@
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:power_active",
+                "power": "succsorigins:sunborn/combat_toggle"
+            },
+            {
+                "type": "origins:resource",
+                "resource": "succsorigins:sunborn/energy",
+                "comparison": ">",
+                "compare_to": 5
+            }
+        ]
+    },
+    "type": "origins:attacker_action_when_hit",
+    "damage_condition": {
+        "inverted": true,
+        "type": "origins:projectile"
+    },
+    "entity_action": {
+        "type": "origins:set_on_fire",
+        "duration": 5
+    },
+    "cooldown": 1
+}

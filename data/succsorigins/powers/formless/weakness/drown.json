@@ -1,0 +1,12 @@
+{
+    "name": "Water Vulnerability",
+    "description": "You can't swim and instead sink in water. You also imediately start drowning",
+    "condition": {
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water"
+    },
+    "type": "origins:damage_over_time",
+    "damage": 5,
+    "damage_type": "minecraft:drown",
+    "protection_effectiveness": 1
+}

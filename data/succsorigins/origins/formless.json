@@ -1,0 +1,34 @@
+{
+    "name": "Formless",
+    "description": "The Formless entity is a master of transformation, seamlessly shifting between various shapes to adapt to any situation. However, this shapechanging marvel harbors a singular vulnerability: water. In the vast landscapes, the Formless navigates the world with unparalleled versatility, showcasing a dynamic array of forms.",
+    "powers": [
+        "succsorigins:formless/current_form",
+        "succsorigins:formless/selected_form",
+        "succsorigins:formless/death",
+        "succsorigins:formless/default/default_trigger",
+        "succsorigins:formless/default/default",
+        "succsorigins:formless/titanic/titanic_trigger",
+        "succsorigins:formless/titanic/titanic_big",
+        "succsorigins:formless/titanic/titanic_health",
+        "succsorigins:formless/pixish/pixish_trigger",
+        "succsorigins:formless/pixish/pixish_health",
+        "succsorigins:formless/pixish/pixish_small",
+        "succsorigins:formless/pixish/pixish_speed",
+        "succsorigins:formless/ethereal/ethereal_trigger",
+        "succsorigins:formless/ethereal/ethereal_fire_immunity",
+        "succsorigins:formless/ethereal/ethereal_invisibility",
+        "succsorigins:formless/ethereal/ethereal_invulnerability",
+        "succsorigins:formless/ethereal/ethereal_no_interactions",
+        "succsorigins:formless/ethereal/ethereal_no_jump",
+        "succsorigins:formless/ethereal/ethereal_no_fly",
+        "succsorigins:formless/ethereal/ethereal_no_movement",
+        "succsorigins:formless/ethereal/ethereal_no_reach",
+        "succsorigins:formless/weakness/drown",
+        "succsorigins:formless/weakness/no_drown",
+        "succsorigins:formless/weakness/no_water"
+    ],
+    "icon": {
+        "item": "minecraft:clay_ball"
+    },
+    "impact": 2
+}

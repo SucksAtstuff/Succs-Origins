@@ -1,0 +1,9 @@
+{
+    "name": "Warmer home",
+    "description": "Spawn in the Nether, a realm of heat and flames, where you feel more at home.",
+    "type": "origins:modify_player_spawn",
+    "dimension": "minecraft:the_nether",
+    "biome": "minecraft:crimson_forest",
+    "spawn_strategy": "default",
+    "dimension_distance_multiplier": 1
+}

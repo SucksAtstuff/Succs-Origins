@@ -1,0 +1,17 @@
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:resource",
+        "resource": "succsorigins:formless/current_form",
+        "comparison": "==",
+        "compare_to": 2
+    },
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": 4
+    },
+    "tick_rate": 20,
+    "update_health": true
+}

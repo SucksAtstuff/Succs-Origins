@@ -1,0 +1,19 @@
+{
+    "name": "The Imploder",
+    "description": "The Imploder, as the name suggests, is a highly destructive force. Originating in the Nether, your powers revolve around causing chaos and destruction.",
+    "powers": [
+        "succsorigins:imploder/advantage/kineticblast",
+        "succsorigins:imploder/advantage/nuclearmeltdown",
+        "succsorigins:imploder/advantage/kinetic_boost",
+        "succsorigins:imploder/advantage/handmine",
+        "succsorigins:imploder/glow",
+        "succsorigins:imploder/weakness/frail",
+        "succsorigins:imploder/weakness/food",
+        "succsorigins:imploder/weakness/diet",
+        "succsorigins:imploder/weakness/nether"
+    ],
+    "icon": {
+        "item": "minecraft:gunpowder"
+    },
+    "impact": 3
+}

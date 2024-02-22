@@ -1,0 +1,21 @@
+{
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:type",
+        "damage_type": "minecraft:fall"
+    },
+    "modifiers": [
+        {
+            "operation": "add_base_early",
+            "value": -7
+        },
+        {
+            "operation": "multiply_total_multiplicative",
+            "value": -0.5
+        },
+        {
+            "operation": "min_total",
+            "value": 0
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Sunborn",
+    "description": "It is said that the Sunborn were created when pure sunlight condensed into a humanoid form. They are able to fly, as if swimming through the air, shoot balls of sunlight and in combat, they can set enemies on fire. These powers, however, are only available to them in warm climants, so they can't stand the cold, as it is also damaging to them.",
+    "powers": [
+        "succsorigins:sunborn/energy",
+        "succsorigins:sunborn/energy_increase",
+        "succsorigins:sunborn/cold_damage",
+        "succsorigins:sunborn/energy_drain",
+        "succsorigins:sunborn/combat_toggle",
+        "succsorigins:sunborn/combat_onhit_target",
+        "succsorigins:sunborn/combat_onhit_self",
+        "succsorigins:sunborn/combat_whenhit_attacker",
+        "succsorigins:sunborn/combat_whenhit_self",
+        "succsorigins:sunborn/air_swimming",
+        "succsorigins:sunborn/air_swimming_toggle",
+        "succsorigins:sunborn/air_swimming_drain_normal",
+        "succsorigins:sunborn/air_swimming_drain_warm",
+        "succsorigins:sunborn/energy_beam",
+        "succsorigins:sunborn/limited_fire_resistance",
+        "succsorigins:sunborn/fall_resistance"
+    ],
+    "icon": {
+        "item": "minecraft:glowstone"
+    },
+    "impact": 3
+}

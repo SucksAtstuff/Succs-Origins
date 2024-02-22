@@ -1,0 +1,20 @@
+{
+    "name": "Perculiar diet",
+    "description": "Only sustenance from quartz provides you with the energy you need.",
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:food"
+            },
+            {
+                "inverted": true,
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:quartz"
+                }
+            }
+        ]
+    }
+}

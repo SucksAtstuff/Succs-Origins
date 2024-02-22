@@ -1,0 +1,16 @@
+{
+    "name": "Fragile body",
+    "description": "Due to your size you have a lot less health.",
+    "condition": {
+        "type": "origins:gamemode",
+        "gamemode": "survival"
+    },
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": -13
+    },
+    "tick_rate": 20,
+    "update_health": true
+}

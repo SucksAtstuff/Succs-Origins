@@ -1,0 +1,10 @@
+{
+    "name": "Kinetically Charged Hands",
+    "description": "Harness the power within your hands to mine stone directly, showcasing your ability to manipulate the environment with ease.",
+    "type": "origins:modify_harvest",
+    "block_condition": {
+        "type": "origins:in_tag",
+        "tag": "origins:natural_stone"
+    },
+    "allow": true
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Abyssal creature",
+    "description": "Spawn in the End, where your presence is native.",
+    "type": "origins:modify_player_spawn",
+    "dimension": "minecraft:the_end",
+    "biome": "minecraft:end_midlands",
+    "spawn_strategy": "default",
+    "dimension_distance_multiplier": 1
+}

@@ -1,0 +1,30 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "key0": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:nbt",
+            "nbt": "{Tags: ['cryo_mage']}"
+        },
+        "type": "origins:action_over_time",
+        "interval": 500,
+        "entity_action": {
+            "type": "origins:delay",
+            "action": {
+                "type": "origins:revoke_power",
+                "power": "succsorigins:cryo_mage/freeze",
+                "source": "succsorigins:cryo_mage"
+            },
+            "ticks": 100
+        }
+    },
+    "key1": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:nbt",
+            "nbt": "{Tags: ['cryo_mage']}"
+        },
+        "type": "origins:freeze"
+    }
+}

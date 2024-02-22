@@ -1,0 +1,23 @@
+{
+    "name": "American",
+    "description": "AMERICA F*CK YEAH!!!! *Insert eagle screech*",
+    "powers": [
+        "succsorigins:american/advantages/speed",
+        "succsorigins:american/advantages/stepheight",
+        "succsorigins:american/advantages/guns/sniper",
+        "succsorigins:american/advantages/guns/pistol",
+        "succsorigins:american/advantages/guns/shotgun",
+        "succsorigins:american/advantages/guns/submachine",
+        "succsorigins:american/gunswitch",
+        "succsorigins:american/death",
+        "succsorigins:american/weakness/average",
+        "succsorigins:american/weakness/studentloans",
+        "succsorigins:american/falldamage",
+        "succsorigins:american/jump"
+    ],
+    "icon": {
+        "item": "minecraft:red_wool",
+        "amount": 1
+    },
+    "impact": 1
+}

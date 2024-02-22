@@ -1,0 +1,36 @@
+{
+    "name": "Uppies",
+    "description": "Stick to surfaces and entities, making you difficult to detect. (when holding a slime ball)",
+    "type": "origins:action_on_entity_use",
+    "bientity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:mount"
+            },
+            {
+                "type": "origins:actor_action",
+                "action": {
+                    "type": "origins:exhaust",
+                    "amount": 6
+                }
+            }
+        ]
+    },
+    "bientity_condition": {
+        "type": "origins:actor_condition",
+        "condition": {
+            "type": "origins:food_level",
+            "comparison": ">",
+            "compare_to": 6
+        }
+    },
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:slime_ball"
+        }
+    },
+    "action_result": "success",
+    "priority": 0
+}

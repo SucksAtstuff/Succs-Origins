@@ -1,0 +1,6 @@
+{
+    "name": "Wings",
+    "description": "Glide gracefully through the air, utilizing wings that allow you to traverse the landscape with ease.",
+    "type": "origins:elytra_flight",
+    "render_elytra": true
+}

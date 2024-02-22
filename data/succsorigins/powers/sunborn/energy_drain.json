@@ -1,0 +1,44 @@
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:biome",
+        "biomes": [
+            "betterend:ice_starfield",
+            "minecraft:cold_ocean",
+            "minecraft:deep_cold_ocean",
+            "minecraft:deep_frozen_ocean",
+            "minecraft:frozen_ocean",
+            "minecraft:frozen_peaks",
+            "minecraft:frozen_river",
+            "minecraft:grove",
+            "minecraft:ice_spikes",
+            "minecraft:jagged_peaks",
+            "minecraft:snowy_beach",
+            "minecraft:snowy_plains",
+            "minecraft:snowy_slopes",
+            "minecraft:snowy_taiga",
+            "minecraft:windswept_forest",
+            "minecraft:windswept_gravelly_hills",
+            "minecraft:windswept_hills",
+            "promenade:glacarian_taiga",
+            "regions_unexplored:cold_boreal_taiga",
+            "regions_unexplored:cold_deciduous_forest",
+            "regions_unexplored:cold_river",
+            "regions_unexplored:frozen_pine_taiga",
+            "regions_unexplored:frozen_tundra",
+            "regions_unexplored:hyacinth_deeps",
+            "regions_unexplored:icy_heights",
+            "terrestria:caldera",
+            "terrestria:snowy_hemlock_forest",
+            "terrestria:snowy_hemlock_treeline"
+        ]
+    },
+    "type": "origins:action_over_time",
+    "interval": 40,
+    "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "succsorigins:sunborn/energy",
+        "change": -1,
+        "operation": "add"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Born from the sky",
+    "description": "You are able to swim through the air.",
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": {
+        "key": "key.origins.primary_active"
+    },
+    "retain_state": true
+}

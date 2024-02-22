@@ -1,0 +1,16 @@
+{
+    "name": "Speedy",
+    "description": "Due to your efficient nature you are faster than humans.",
+    "type": "origins:action_over_time",
+    "interval": 100,
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:speed",
+            "duration": 110,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": false
+        }
+    }
+}

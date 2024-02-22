@@ -1,0 +1,6 @@
+{
+    "name": "Light",
+    "description": "Enjoy the perk of no fall damage due to your compact form.",
+    "type": "origins:modify_falling",
+    "take_fall_damage": false
+}

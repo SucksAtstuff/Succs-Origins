@@ -1,0 +1,22 @@
+{
+    "name": "cling",
+    "hidden": true,
+    "condition": {
+        "type": "origins:power_active",
+        "power": "succsorigins:shrunken/toggle"
+    },
+    "type": "origins:action_on_entity_use",
+    "bientity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:mount"
+            }
+        ]
+    },
+    "item_condition": {
+        "type": "origins:empty"
+    },
+    "action_result": "success",
+    "priority": 0
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Speed Demon",
+    "description": "The Speed Demon is an entity of incredible velocity and elusive prowess, dominating the terrain with supernatural speed. With the power to become intangible and a penchant for extreme velocity, the Speed Demon is a force to be reckoned with.",
+    "powers": [
+        "succsorigins:speed_demon/advantages/speed",
+        "succsorigins:speed_demon/advantages/speedboost",
+        "succsorigins:speed_demon/advantages/phasing"
+    ],
+    "icon": {
+        "item": "minecraft:ghast_tear"
+    },
+    "impact": 1
+}

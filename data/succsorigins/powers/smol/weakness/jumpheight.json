@@ -1,0 +1,13 @@
+{
+    "hidden": true,
+    "type": "origins:action_on_callback",
+    "execute_chosen_when_orb": true,
+    "entity_action_added": {
+        "type": "origins:execute_command",
+        "command": "scale set pehkui:jump_height 0.75"
+    },
+    "entity_action_removed": {
+        "type": "origins:execute_command",
+        "command": "scale reset @s"
+    }
+}

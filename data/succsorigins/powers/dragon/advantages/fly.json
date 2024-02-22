@@ -1,0 +1,6 @@
+{
+    "name": "Wings",
+    "description": "Soar through the skies at will.",
+    "type": "origins:elytra_flight",
+    "render_elytra": true
+}

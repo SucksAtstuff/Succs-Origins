@@ -1,0 +1,19 @@
+{
+    "name": "Pacifist",
+    "description": "Embrace a peaceful nature, refraining from consuming meats as sustenance.",
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:food"
+            },
+            {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "succsorigins:dragonfoods"
+                }
+            }
+        ]
+    }
+}

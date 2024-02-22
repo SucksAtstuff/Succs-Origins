@@ -1,0 +1,13 @@
+{
+    "name": "Tank",
+    "description": "The Tank is a formidable force on the battlefield, embodying unparalleled durability and strength. With the ability to resist damage and move with impressive speed, the Tank stands as a stalwart defender.",
+    "powers": [
+        "succsorigins:tank/advantages/resistant",
+        "succsorigins:tank/advantages/speed",
+        "succsorigins:tank/weaknessess/halfhealth"
+    ],
+    "icon": {
+        "item": "minecraft:anvil"
+    },
+    "impact": 1
+}

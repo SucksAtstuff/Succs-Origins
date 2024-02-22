@@ -1,0 +1,6 @@
+{
+    "name": "Light",
+    "description": "Your body is very light, you don't take fall damage",
+    "type": "origins:modify_falling",
+    "take_fall_damage": false
+}

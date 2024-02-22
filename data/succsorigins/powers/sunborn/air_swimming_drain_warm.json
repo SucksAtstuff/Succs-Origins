@@ -1,0 +1,95 @@
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "inverted": true,
+                "type": "origins:in_block",
+                "block_condition": {
+                    "type": "origins:block",
+                    "block": "minecraft:water"
+                }
+            },
+            {
+                "type": "origins:swimming"
+            },
+            {
+                "type": "origins:biome",
+                "biomes": [
+                    "betterend:neon_oasis",
+                    "betterend:sulphur_springs",
+                    "betternether:bone_reef",
+                    "betternether:crimson_glowing_woods",
+                    "betternether:crimson_pinewood",
+                    "betternether:flooded_deltas",
+                    "betternether:gravel_desert",
+                    "betternether:magma_land",
+                    "betternether:nether_grassland",
+                    "betternether:nether_jungle",
+                    "betternether:nether_mushroom_forest",
+                    "betternether:nether_mushroom_forest_edge",
+                    "betternether:nether_swampland",
+                    "betternether:nether_swampland_terraces",
+                    "betternether:old_fungiwoods",
+                    "betternether:old_swampland",
+                    "betternether:old_warped_woods",
+                    "betternether:poor_nether_grasslands",
+                    "betternether:soul_plain",
+                    "betternether:sulfuric_bone_reef",
+                    "betternether:upside_down_forest",
+                    "betternether:upside_down_forest_cleared",
+                    "betternether:wart_forest",
+                    "betternether:wart_forest_edge",
+                    "minecraft:badlands",
+                    "minecraft:basalt_deltas",
+                    "minecraft:crimson_forest",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:desert",
+                    "minecraft:eroded_badlands",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:nether_wastes",
+                    "minecraft:savanna",
+                    "minecraft:savanna_plateau",
+                    "minecraft:soul_sand_valley",
+                    "minecraft:warm_ocean",
+                    "minecraft:warped_forest",
+                    "minecraft:windswept_savanna",
+                    "minecraft:wooded_badlands",
+                    "regions_unexplored:arid_mountains",
+                    "regions_unexplored:ashen_woodland",
+                    "regions_unexplored:baobab_savanna",
+                    "regions_unexplored:blackstone_basin",
+                    "regions_unexplored:eucalyptus_forest",
+                    "regions_unexplored:glistering_meadow",
+                    "regions_unexplored:infernal_holt",
+                    "regions_unexplored:joshua_desert",
+                    "regions_unexplored:mycotoxic_undergrowth",
+                    "regions_unexplored:outback",
+                    "regions_unexplored:prairie",
+                    "regions_unexplored:rainforest",
+                    "regions_unexplored:saguaro_desert",
+                    "regions_unexplored:scorching_caves",
+                    "regions_unexplored:sparse_rainforest",
+                    "regions_unexplored:spires",
+                    "regions_unexplored:steppe",
+                    "regions_unexplored:tropical_river",
+                    "terrestria:canyon",
+                    "terrestria:dunes",
+                    "terrestria:lush_desert",
+                    "terrestria:oasis",
+                    "terrestria:outback",
+                    "terrestria:volcanic_island"
+                ]
+            }
+        ]
+    },
+    "type": "origins:action_over_time",
+    "interval": 40,
+    "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "succsorigins:sunborn/energy",
+        "change": -1,
+        "operation": "add"
+    }
+}

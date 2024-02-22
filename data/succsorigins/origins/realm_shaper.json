@@ -1,0 +1,18 @@
+{
+    "name": "Realm Shaper",
+    "description": "Eldritch being that can shape the realm at their will",
+    "powers": [
+        "succsorigins:realm_shaper/advantages/teleport",
+        "succsorigins:realm_shaper/advantages/crafting",
+        "succsorigins:realm_shaper/advantages/haste",
+        "succsorigins:realm_shaper/weaknesses/diet",
+        "succsorigins:realm_shaper/weaknesses/weakness",
+        "succsorigins:realm_shaper/weaknesses/small",
+        "succsorigins:realm_shaper/jump",
+        "succsorigins:realm_shaper/stepheight"
+    ],
+    "icon": {
+        "item": "minecraft:nether_star"
+    },
+    "impact": 2
+}

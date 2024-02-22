@@ -1,0 +1,29 @@
+{
+    "name": "Titanic Form",
+    "description": "In this form you become a bigger, bulkier human.",
+    "condition": {
+        "type": "origins:resource",
+        "resource": "succsorigins:formless/selected_form_selected_form",
+        "comparison": "==",
+        "compare_to": 2
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:change_resource",
+                "resource": "succsorigins:formless/current_form",
+                "change": 2,
+                "operation": "set"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "title @s actionbar {\"text\":\"Changed form to: Titanic\"}"
+            }
+        ]
+    },
+    "key": {
+        "key": "key.origins.primary_active"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Fireball",
+    "description": "Harness the power of the Nether to shoot explosive fireballs, turning the tides of battle in your favor.",
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:fireball",
+    "cooldown": 100,
+    "hud_render": {
+        "should_render": true
+    },
+    "count": 1,
+    "interval": 0,
+    "start_delay": 0,
+    "speed": 1.5,
+    "divergence": 0,
+    "sound": "minecraft:entity.blaze.shoot",
+    "key": {
+        "key": "key.origins.primary_active"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Small bodied",
+    "description": "Your diminutive size grants a natural resistance, resulting in less kinetic damage.",
+    "condition": {
+        "type": "origins:fall_flying"
+    },
+    "type": "origins:simple"
+}

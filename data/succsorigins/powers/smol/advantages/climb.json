@@ -1,0 +1,97 @@
+{
+    "name": "Climbing",
+    "description": "Scale structures with ease, accessing unique vantage points.",
+    "type": "origins:multiple",
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "key.origins.primary_active"
+        },
+        "retain_state": true
+    },
+    "climbed_blocks": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 2147483647,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "climbing": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:collided_horizontally"
+                },
+                {
+                    "type": "origins:power_active",
+                    "power": "*:*_toggle"
+                }
+            ]
+        },
+        "type": "origins:climbing",
+        "allow_holding": true
+    },
+    "start": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:or",
+                    "conditions": [
+                        {
+                            "type": "origins:block_collision",
+                            "offset_x": 0.1,
+                            "offset_y": 0,
+                            "offset_z": 0.1
+                        },
+                        {
+                            "type": "origins:block_collision",
+                            "offset_x": -0.1,
+                            "offset_y": 0,
+                            "offset_z": -0.1
+                        }
+                    ]
+                },
+                {
+                    "type": "origins:fall_distance",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:on_block"
+                },
+                {
+                    "type": "origins:power_active",
+                    "power": "*:*_toggle"
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "interval": 8,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_climbed_blocks",
+            "change": 1,
+            "operation": "add"
+        }
+    },
+    "end": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_climbed_blocks",
+            "comparison": ">=",
+            "compare_to": 5
+        },
+        "type": "origins:action_on_land",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_climbed_blocks",
+            "change": 0,
+            "operation": "set"
+        }
+    }
+}

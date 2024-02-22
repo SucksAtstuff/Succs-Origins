@@ -1,0 +1,25 @@
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:resource",
+        "resource": "succsorigins:formless/current_form",
+        "comparison": "==",
+        "compare_to": 3
+    },
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "rising_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:speed",
+            "duration": -1,
+            "amplifier": 1,
+            "show_particles": false,
+            "show_icon": false
+        }
+    },
+    "falling_action": {
+        "type": "origins:execute_command",
+        "command": "effect clear @s minecraft:speed"
+    }
+}

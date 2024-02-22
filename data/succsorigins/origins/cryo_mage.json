@@ -1,0 +1,22 @@
+{
+    "name": "Cryo Mage",
+    "description": "The Cryo Mage draws power from the icy depths, wielding frosty magic to freeze foes and shape the environment. In the frigid landscapes of Minecraft, this origin reigns supreme, turning the world into a winter wonderland of both beauty and peril.",
+    "powers": [
+        "succsorigins:cryo_mage/advantages/frostnova",
+        "succsorigins:cryo_mage/advantages/fortification_effects/no_movement",
+        "succsorigins:cryo_mage/advantages/fortification_effects/no_jump",
+        "succsorigins:cryo_mage/advantages/fortification_effects/invulnerability",
+        "succsorigins:cryo_mage/advantages/fortification",
+        "succsorigins:cryo_mage/frost_energy",
+        "succsorigins:cryo_mage/weaknessess/heat_sensitivity",
+        "succsorigins:cryo_mage/weaknessess/heat_weakness",
+        "succsorigins:cryo_mage/weaknessess/melting",
+        "succsorigins:cryo_mage/energy_increase",
+        "succsorigins:cryo_mage/origin_chosen",
+        "succsorigins:cryo_mage/energy_increase_frost"
+    ],
+    "icon": {
+        "item": "minecraft:ice"
+    },
+    "impact": 1
+}

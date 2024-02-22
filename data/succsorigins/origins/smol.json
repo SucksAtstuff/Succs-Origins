@@ -1,0 +1,20 @@
+{
+    "name": "Smol",
+    "description": "The Smol excels in agility and stealth, utilizing its tiny size to navigate the world effectively.",
+    "powers": [
+        "succsorigins:smol/advantages/uppies",
+        "succsorigins:smol/advantages/nofalldamage",
+        "succsorigins:smol/advantages/uncling",
+        "succsorigins:smol/advantages/blockreach",
+        "succsorigins:smol/advantages/climb",
+        "succsorigins:smol/advantages/nimble",
+        "succsorigins:smol/advantages/saturation",
+        "succsorigins:smol/weakness/small",
+        "succsorigins:smol/weakness/fragile",
+        "succsorigins:smol/weakness/jumpheight"
+    ],
+    "icon": {
+        "item": "minecraft:brown_mushroom"
+    },
+    "impact": 3
+}

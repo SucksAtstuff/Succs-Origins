@@ -1,0 +1,21 @@
+{
+    "name": "Shrunken",
+    "description": "A small and nimble creature, the Shrunken has unique abilities suited for its diminutive size.",
+    "powers": [
+        "succsorigins:shrunken/advantages/climb",
+        "succsorigins:shrunken/advantages/cling",
+        "succsorigins:shrunken/advantages/mightysteed",
+        "succsorigins:shrunken/advantages/saturation",
+        "succsorigins:shrunken/toggle",
+        "succsorigins:shrunken/advantages/kineticdamage",
+        "succsorigins:shrunken/advantages/nofalldamage",
+        "succsorigins:shrunken/advantages/blockreach",
+        "succsorigins:shrunken/advantages/uncling",
+        "succsorigins:shrunken/weakness/small",
+        "succsorigins:shrunken/weakness/fragile"
+    ],
+    "icon": {
+        "item": "minecraft:spruce_slab"
+    },
+    "impact": 3
+}

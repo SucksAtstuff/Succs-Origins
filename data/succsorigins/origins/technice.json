@@ -1,0 +1,22 @@
+{
+    "name": "Technice",
+    "description": "Technices are people who have spent years tinkering. They can repair their tools and easily turn materials into parts to tinker with.",
+    "powers": [
+        "succsorigins:technice/weaknessess/underground_sleep",
+        "succsorigins:technice/weaknessess/no_water",
+        "succsorigins:technice/advantages/crafting/door",
+        "succsorigins:technice/advantages/crafting/block",
+        "succsorigins:technice/advantages/crafting/minecart",
+        "succsorigins:technice/advantages/crafting/cauldron",
+        "succsorigins:technice/advantages/crafting/nugget",
+        "succsorigins:technice/advantages/crafting/trapdoor",
+        "succsorigins:technice/advantages/crafting/pressure_plate",
+        "succsorigins:technice/advantages/crafting_switch",
+        "succsorigins:technice/advantages/repair",
+        "succsorigins:technice/advantages/speed"
+    ],
+    "icon": {
+        "item": "minecraft:iron_pickaxe"
+    },
+    "impact": 1
+}

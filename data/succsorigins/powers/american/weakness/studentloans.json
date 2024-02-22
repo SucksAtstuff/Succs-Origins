@@ -1,0 +1,10 @@
+{
+    "name": "Student loans",
+    "description": "The burden of student loans weighs on your progress, resulting in slower experience gain as you contribute to the government.",
+    "type": "origins:modify_xp_gain",
+    "modifier": {
+        "operation": "set_total",
+        "value": 0.75,
+        "name": "StudentLoans"
+    }
+}

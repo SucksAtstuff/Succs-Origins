@@ -1,0 +1,20 @@
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "inverted": true,
+                "type": "origins:resource",
+                "resource": "succsorigins:cryo_mage/advantages/fortification",
+                "comparison": "<",
+                "compare_to": 150
+            }
+        ]
+    },
+    "type": "origins:modify_jump",
+    "modifier": {
+        "operation": "set_total",
+        "value": 0
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Fragile body",
+    "description": "The Zambeidium's smaller size comes at the cost of reduced health, making you vulnerable to attacks.",
+    "condition": {
+        "type": "origins:gamemode",
+        "gamemode": "survival"
+    },
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": -13
+    },
+    "tick_rate": 20,
+    "update_health": true
+}

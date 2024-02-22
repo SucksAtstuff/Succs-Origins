@@ -1,0 +1,125 @@
+{
+    "name": "Shape Shift",
+    "description": "Select a form to switch to.",
+    "type": "origins:multiple",
+    "clockwise": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:if_else_list",
+                    "actions": [
+                        {
+                            "condition": {
+                                "type": "origins:resource",
+                                "resource": "succsorigins:formless/selected_form_selected_form",
+                                "comparison": "==",
+                                "compare_to": 4
+                            },
+                            "action": {
+                                "type": "origins:and",
+                                "actions": [
+                                    {
+                                        "type": "origins:execute_command",
+                                        "command": "title @s actionbar {\"text\":\"Selected form: Default\"}"
+                                    },
+                                    {
+                                        "type": "origins:change_resource",
+                                        "resource": "succsorigins:formless/selected_form_selected_form",
+                                        "change": 1,
+                                        "operation": "set"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "condition": {
+                                "type": "origins:resource",
+                                "resource": "succsorigins:formless/selected_form_selected_form",
+                                "comparison": "==",
+                                "compare_to": 1
+                            },
+                            "action": {
+                                "type": "origins:and",
+                                "actions": [
+                                    {
+                                        "type": "origins:execute_command",
+                                        "command": "title @s actionbar {\"text\":\"Selected form: Titanic\"}"
+                                    },
+                                    {
+                                        "type": "origins:change_resource",
+                                        "resource": "succsorigins:formless/selected_form_selected_form",
+                                        "change": 2,
+                                        "operation": "set"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "condition": {
+                                "type": "origins:resource",
+                                "resource": "succsorigins:formless/selected_form_selected_form",
+                                "comparison": "==",
+                                "compare_to": 2
+                            },
+                            "action": {
+                                "type": "origins:and",
+                                "actions": [
+                                    {
+                                        "type": "origins:execute_command",
+                                        "command": "title @s actionbar {\"text\":\"Selected form: Pixish\"}"
+                                    },
+                                    {
+                                        "type": "origins:change_resource",
+                                        "resource": "succsorigins:formless/selected_form_selected_form",
+                                        "change": 3,
+                                        "operation": "set"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "condition": {
+                                "type": "origins:resource",
+                                "resource": "succsorigins:formless/selected_form_selected_form",
+                                "comparison": "==",
+                                "compare_to": 3
+                            },
+                            "action": {
+                                "type": "origins:and",
+                                "actions": [
+                                    {
+                                        "type": "origins:execute_command",
+                                        "command": "title @s actionbar {\"text\":\"Selected form: Ethereal\"}"
+                                    },
+                                    {
+                                        "type": "origins:change_resource",
+                                        "resource": "succsorigins:formless/selected_form_selected_form",
+                                        "change": 4,
+                                        "operation": "set"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "cooldown": 5,
+        "key": {
+            "key": "key.origins.secondary_active"
+        }
+    },
+    "selected_form": {
+        "type": "origins:resource",
+        "min": 1,
+        "max": 4,
+        "start_value": 1,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+            "bar_index": 12
+        }
+    }
+}

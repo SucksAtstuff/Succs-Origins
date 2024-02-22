@@ -1,0 +1,20 @@
+{
+    "name": "Rapid Momentum",
+    "description": "Surprising foes with your agility, you move at an accelerated pace, ensuring that you can navigate the battlefield with both power and swiftness.",
+    "type": "origins:action_on_callback",
+    "execute_chosen_when_orb": true,
+    "entity_action_added": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:speed",
+            "duration": 999999999,
+            "amplifier": 1,
+            "show_particles": false,
+            "show_icon": false
+        }
+    },
+    "entity_action_removed": {
+        "type": "origins:clear_effect",
+        "effect": "minecraft:speed"
+    }
+}

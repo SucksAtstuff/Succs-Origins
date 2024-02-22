@@ -1,0 +1,10 @@
+{
+    "name": "Weak",
+    "description": "While your mind is powerful, your physical form is relatively weak, resulting in reduced damage output.",
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+        "operation": "addition",
+        "value": -3,
+        "name": "WeakHands"
+    }
+}

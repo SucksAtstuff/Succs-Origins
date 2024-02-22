@@ -1,0 +1,26 @@
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "inverted": true,
+                "type": "origins:fluid_height",
+                "fluid": "minecraft:water",
+                "comparison": ">",
+                "compare_to": 0
+            },
+            {
+                "type": "origins:power_active",
+                "power": "succsorigins:sunborn/air_swimming_toggle"
+            },
+            {
+                "type": "origins:resource",
+                "resource": "succsorigins:sunborn/energy",
+                "comparison": ">",
+                "compare_to": 0
+            }
+        ]
+    },
+    "type": "origins:swimming"
+}

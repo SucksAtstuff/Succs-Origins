@@ -1,0 +1,71 @@
+{
+    "name": "Crafting: Heavy Weighted Pressure Plate",
+    "description": "You can craft 2 Iron Ingots that you hold in your hand into a Heavy Weighted Pressure Plate.",
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:inventory",
+                "process_mode": "items",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:iron_ingot"
+                    }
+                },
+                "slots": [],
+                "slot": "weapon.mainhand",
+                "comparison": ">=",
+                "compare_to": 0
+            },
+            {
+                "type": "origins:inventory",
+                "process_mode": "items",
+                "item_condition": {
+                    "type": "origins:amount",
+                    "comparison": ">=",
+                    "compare_to": 2
+                },
+                "slots": [],
+                "slot": "weapon.mainhand",
+                "comparison": ">=",
+                "compare_to": 0
+            },
+            {
+                "type": "origins:resource",
+                "resource": "succsorigins:technice/advantages/crafting_switch_current_ability",
+                "comparison": "==",
+                "compare_to": 2
+            }
+        ]
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:modify_inventory",
+                "inventory_type": "inventory",
+                "item_action": {
+                    "type": "origins:consume",
+                    "amount": 2
+                },
+                "slots": [],
+                "slot": "weapon.mainhand",
+                "process_mode": "items",
+                "limit": 0
+            },
+            {
+                "type": "origins:give",
+                "stack": {
+                    "item": "minecraft:heavy_weighted_pressure_plate",
+                    "amount": 1
+                },
+                "preferred_slot": "mainhand"
+            }
+        ]
+    },
+    "key": {
+        "key": "key.origins.secondary_active"
+    }
+}

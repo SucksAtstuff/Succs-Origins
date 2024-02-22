@@ -1,0 +1,35 @@
+{
+    "name": "Repair",
+    "description": "You can sacrifice 1 level of expierience to restore 100 points of durability to an item you are holding in your hand",
+    "condition": {
+        "type": "origins:xp_levels",
+        "comparison": ">",
+        "compare_to": 0
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:modify_inventory",
+        "inventory_type": "inventory",
+        "entity_action": {
+            "type": "origins:add_xp",
+            "levels": -1
+        },
+        "item_action": {
+            "type": "origins:damage",
+            "amount": -100,
+            "ignore_unbreaking": true
+        },
+        "item_condition": {
+            "type": "origins:relative_durability",
+            "comparison": "<",
+            "compare_to": 1
+        },
+        "slots": [],
+        "slot": "weapon.mainhand",
+        "process_mode": "items",
+        "limit": 0
+    },
+    "key": {
+        "key": "key.origins.primary_active"
+    }
+}

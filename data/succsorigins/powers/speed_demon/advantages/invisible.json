@@ -1,0 +1,24 @@
+{
+    "name": "Intangible",
+    "description": "Vanish from sight and become intangible, allowing you to pass through solid blocks, escaping pursuers or infiltrating hidden spaces.",
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "text": {
+                "keybind": "key.origins.primary_active"
+            }
+        }
+    ],
+    "condition": {
+        "type": "origins:food_level",
+        "comparison": ">",
+        "compare_to": 6
+    },
+    "type": "origins:toggle",
+    "active_by_default": true,
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": false
+    },
+    "retain_state": false
+}

@@ -1,0 +1,194 @@
+{
+    "name": "Crafting Switch",
+    "description": "Switch through the different crafting recipes",
+    "type": "origins:multiple",
+    "current_ability": {
+        "type": "origins:resource",
+        "min": 1,
+        "max": 7,
+        "start_value": 7,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+            "bar_index": 3
+        }
+    },
+    "clockwise": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:if_else_list",
+                    "actions": [
+                        {
+                            "condition": {
+                                "type": "origins:resource",
+                                "resource": "succsorigins:technice/advantages/crafting_switch_current_ability",
+                                "comparison": "==",
+                                "compare_to": 7
+                            },
+                            "action": {
+                                "type": "origins:and",
+                                "actions": [
+                                    {
+                                        "type": "origins:execute_command",
+                                        "command": "title @s actionbar {\"text\":\"Selected Recipe: Iron Nugget\"}"
+                                    },
+                                    {
+                                        "type": "origins:change_resource",
+                                        "resource": "succsorigins:technice/advantages/crafting_switch_current_ability",
+                                        "change": 1,
+                                        "operation": "set"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "condition": {
+                                "type": "origins:resource",
+                                "resource": "succsorigins:technice/advantages/crafting_switch_current_ability",
+                                "comparison": "==",
+                                "compare_to": 1
+                            },
+                            "action": {
+                                "type": "origins:and",
+                                "actions": [
+                                    {
+                                        "type": "origins:execute_command",
+                                        "command": "title @s actionbar {\"text\":\"Selected Recipe: Heavy Weighted Pressure Plate\"}"
+                                    },
+                                    {
+                                        "type": "origins:change_resource",
+                                        "resource": "succsorigins:technice/advantages/crafting_switch_current_ability",
+                                        "change": 2,
+                                        "operation": "set"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "condition": {
+                                "type": "origins:resource",
+                                "resource": "succsorigins:technice/advantages/crafting_switch_current_ability",
+                                "comparison": "==",
+                                "compare_to": 2
+                            },
+                            "action": {
+                                "type": "origins:and",
+                                "actions": [
+                                    {
+                                        "type": "origins:execute_command",
+                                        "command": "title @s actionbar {\"text\":\"Selected Recipe: Iron Trapdoor\"}"
+                                    },
+                                    {
+                                        "type": "origins:change_resource",
+                                        "resource": "succsorigins:technice/advantages/crafting_switch_current_ability",
+                                        "change": 3,
+                                        "operation": "set"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "condition": {
+                                "type": "origins:resource",
+                                "resource": "succsorigins:technice/advantages/crafting_switch_current_ability",
+                                "comparison": "==",
+                                "compare_to": 3
+                            },
+                            "action": {
+                                "type": "origins:and",
+                                "actions": [
+                                    {
+                                        "type": "origins:execute_command",
+                                        "command": "title @s actionbar {\"text\":\"Selected Recipe: Minecart\"}"
+                                    },
+                                    {
+                                        "type": "origins:change_resource",
+                                        "resource": "succsorigins:technice/advantages/crafting_switch_current_ability",
+                                        "change": 4,
+                                        "operation": "set"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "condition": {
+                                "type": "origins:resource",
+                                "resource": "succsorigins:technice/advantages/crafting_switch_current_ability",
+                                "comparison": "==",
+                                "compare_to": 4
+                            },
+                            "action": {
+                                "type": "origins:and",
+                                "actions": [
+                                    {
+                                        "type": "origins:execute_command",
+                                        "command": "title @s actionbar {\"text\":\"Selected Recipe: Iron Door\"}"
+                                    },
+                                    {
+                                        "type": "origins:change_resource",
+                                        "resource": "succsorigins:technice/advantages/crafting_switch_current_ability",
+                                        "change": 5,
+                                        "operation": "set"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "condition": {
+                                "type": "origins:resource",
+                                "resource": "succsorigins:technice/advantages/crafting_switch_current_ability",
+                                "comparison": "==",
+                                "compare_to": 5
+                            },
+                            "action": {
+                                "type": "origins:and",
+                                "actions": [
+                                    {
+                                        "type": "origins:execute_command",
+                                        "command": "title @s actionbar {\"text\":\"Selected Recipe: Cauldron\"}"
+                                    },
+                                    {
+                                        "type": "origins:change_resource",
+                                        "resource": "succsorigins:technice/advantages/crafting_switch_current_ability",
+                                        "change": 6,
+                                        "operation": "set"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "condition": {
+                                "type": "origins:resource",
+                                "resource": "succsorigins:technice/advantages/crafting_switch_current_ability",
+                                "comparison": "==",
+                                "compare_to": 6
+                            },
+                            "action": {
+                                "type": "origins:and",
+                                "actions": [
+                                    {
+                                        "type": "origins:execute_command",
+                                        "command": "title @s actionbar {\"text\":\"Selected Recipe: Iron Block\"}"
+                                    },
+                                    {
+                                        "type": "origins:change_resource",
+                                        "resource": "succsorigins:technice/advantages/crafting_switch_current_ability",
+                                        "change": 7,
+                                        "operation": "set"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "cooldown": 10,
+        "key": {
+            "key": "key.loadToolbarActivator"
+        }
+    }
+}

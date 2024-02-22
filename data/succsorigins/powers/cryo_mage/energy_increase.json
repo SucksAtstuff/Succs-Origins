@@ -1,0 +1,12 @@
+{
+    "name": "Energy Increase",
+    "description": "Your energy increases over time.",
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "succsorigins:cryo_mage/frost_energy",
+        "change": 1,
+        "operation": "add"
+    }
+}

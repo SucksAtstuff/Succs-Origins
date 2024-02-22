@@ -1,0 +1,17 @@
+{
+    "name": "Water Vulnerability",
+    "description": "The time you have spent underground has made your skin sensitive to touch. You take damage while in water.",
+    "condition": {
+        "type": "origins:in_block",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:water"
+        }
+    },
+    "type": "origins:damage_over_time",
+    "interval": 20,
+    "onset_delay": 40,
+    "damage": 3,
+    "damage_type": "origins:hurt_by_water",
+    "protection_effectiveness": 1
+}

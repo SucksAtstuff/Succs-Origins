@@ -1,0 +1,19 @@
+{
+    "name": "Frosted Heart",
+    "description": "When you're cold your energy increases faster",
+    "condition": {
+        "type": "origins:biome",
+        "condition": {
+            "type": "origins:precipitation",
+            "precipitation": "snow"
+        }
+    },
+    "type": "origins:action_over_time",
+    "interval": 10,
+    "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "succsorigins:cryo_mage/frost_energy",
+        "change": 2,
+        "operation": "add"
+    }
+}

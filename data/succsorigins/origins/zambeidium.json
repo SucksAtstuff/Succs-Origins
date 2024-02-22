@@ -1,0 +1,17 @@
+{
+    "name": "Zambeidium",
+    "description": "Originating from the fiery depths of the Nether, the Zambeidium possesses a unique set of abilities, coupled with distinct challenges befitting its infernal origins.",
+    "powers": [
+        "succsorigins:zambeidium/advantages/fly",
+        "succsorigins:zambeidium/advantages/dash",
+        "succsorigins:zambeidium/advantages/fire_ball",
+        "succsorigins:zambeidium/weakness/nether",
+        "succsorigins:zambeidium/weakness/small",
+        "succsorigins:zambeidium/weakness/fragile"
+    ],
+    "icon": {
+        "item": "minecraft:torch",
+        "amount": 1
+    },
+    "impact": 3
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Dragon",
+    "description": "Born in the End, the Dragon is a majestic, yet formidable, creature with unique powers.",
+    "powers": [
+        "succsorigins:dragon/advantages/fly",
+        "succsorigins:dragon/advantages/dash",
+        "succsorigins:dragon/advantages/bite",
+        "succsorigins:dragon/advantages/nightvision",
+        "succsorigins:dragon/advantages/dragonhide",
+        "succsorigins:dragon/advantages/robust",
+        "succsorigins:dragon/weakness/end",
+        "succsorigins:dragon/weakness/diet",
+        "succsorigins:dragon/weakness/small",
+        "succsorigins:dragon/falldamage",
+        "succsorigins:dragon/jump",
+        "succsorigins:dragon/normalspeed",
+        "succsorigins:dragon/stepheight"
+    ],
+    "icon": {
+        "item": "minecraft:bat_spawn_egg"
+    },
+    "impact": 3
+}

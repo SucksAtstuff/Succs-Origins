@@ -1,0 +1,10 @@
+{
+    "name": "Fiery combat",
+    "description": "When in danger, your body becomes engulfed in flames, damaging creatures that hit you, or that you hit.",
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": {
+        "key": "key.loadToolbarActivator"
+    },
+    "retain_state": true
+}

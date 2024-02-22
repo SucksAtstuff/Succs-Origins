@@ -1,0 +1,13 @@
+{
+    "pack": {
+        "name": "Succ's Origins",
+        "id": "succsorigins",
+        "pack_format": 15,
+        "version": "0.0.7",
+        "authors": [
+            "IsuckAtEverything",
+            "Suntix"
+        ],
+        "description": "An addon for the origins mod, that adds custom origins made specifically for the power & precision: Back In Time modpack"
+    }
+}

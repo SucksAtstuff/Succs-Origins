@@ -1,0 +1,10 @@
+{
+    "name": "Overworld Insomnia",
+    "description": "Due to your paranoid nature you can only sleep when you are protected from danger by a roof above your head.",
+    "condition": {
+        "type": "origins:exposed_to_sky"
+    },
+    "type": "origins:prevent_sleep",
+    "message": "You can't sleep here, you're too exposed and unprotected. Seek shelter to sleep.",
+    "set_spawn_point": true
+}

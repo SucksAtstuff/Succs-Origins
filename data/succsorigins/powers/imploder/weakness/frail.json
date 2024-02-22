@@ -1,0 +1,16 @@
+{
+    "name": "Fragile",
+    "description": "Despite your destructive capabilities, your health is limited, making you vulnerable.",
+    "condition": {
+        "type": "origins:gamemode",
+        "gamemode": "survival"
+    },
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": -4
+    },
+    "tick_rate": 20,
+    "update_health": true
+}

@@ -1,0 +1,31 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "prevent_item_use": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "succsorigins:formless/current_form",
+            "comparison": "==",
+            "compare_to": 4
+        },
+        "type": "origins:prevent_item_use"
+    },
+    "prevent_item_pickup": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "succsorigins:formless/current_form",
+            "comparison": "==",
+            "compare_to": 4
+        },
+        "type": "origins:prevent_item_pickup"
+    },
+    "prevent_being_used": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "succsorigins:formless/current_form",
+            "comparison": "==",
+            "compare_to": 4
+        },
+        "type": "origins:prevent_being_used"
+    }
+}

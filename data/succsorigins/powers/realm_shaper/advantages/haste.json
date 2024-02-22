@@ -1,0 +1,30 @@
+{
+    "name": "Fast Hands",
+    "description": "Channel the eldritch energy within you to mine at an accelerated rate, effortlessly shaping the landscape.",
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:haste",
+            "duration": 999999999,
+            "amplifier": 1,
+            "show_particles": false,
+            "show_icon": false
+        }
+    },
+    "execute_chosen_when_orb": true,
+    "entity_action_removed": {
+        "type": "origins:clear_effect",
+        "effect": "minecraft:haste"
+    },
+    "entity_action_respawned": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:haste",
+            "duration": 999999999,
+            "amplifier": 1,
+            "show_particles": true,
+            "show_icon": true
+        }
+    }
+}

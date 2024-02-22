@@ -1,0 +1,16 @@
+{
+    "name": "Robust",
+    "description": "As a dragon, your strength surpasses that of normal beings, granting you increased health.",
+    "condition": {
+        "type": "origins:gamemode",
+        "gamemode": "survival"
+    },
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": 10
+    },
+    "tick_rate": 20,
+    "update_health": true
+}

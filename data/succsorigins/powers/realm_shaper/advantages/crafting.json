@@ -1,0 +1,11 @@
+{
+    "name": "Fabrication",
+    "description": "Harness your otherworldly powers to craft items without the need for a crafting table, demonstrating your direct influence over the crafting process.",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:crafting_table"
+    },
+    "key": {
+        "key": "key.origins.secondary_active"
+    }
+}

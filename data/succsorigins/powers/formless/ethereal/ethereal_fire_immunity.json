@@ -1,0 +1,10 @@
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:resource",
+        "resource": "succsorigins:formless/current_form",
+        "comparison": "==",
+        "compare_to": 4
+    },
+    "type": "origins:fire_immunity"
+}

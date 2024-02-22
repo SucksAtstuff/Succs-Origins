@@ -1,0 +1,362 @@
+{
+    "1": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "succsorigins:imploder/advantage/nuclearmeltdown",
+                    "comparison": ">=",
+                    "compare_to": 500
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "succsorigins:imploder/advantage/nuclearmeltdown",
+                    "comparison": "<",
+                    "compare_to": 1000
+                }
+            ]
+        },
+        "type": "origins:self_glow",
+        "use_teams": false,
+        "red": 0,
+        "green": 0.05,
+        "blue": 0
+    },
+    "2": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "succsorigins:imploder/advantage/nuclearmeltdown",
+                    "comparison": ">=",
+                    "compare_to": 1000
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "succsorigins:imploder/advantage/nuclearmeltdown",
+                    "comparison": "<",
+                    "compare_to": 2000
+                }
+            ]
+        },
+        "type": "origins:self_glow",
+        "use_teams": false,
+        "red": 0,
+        "green": 0.1,
+        "blue": 0
+    },
+    "3": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "succsorigins:imploder/advantage/nuclearmeltdown",
+                    "comparison": ">=",
+                    "compare_to": 2000
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "succsorigins:imploder/advantage/nuclearmeltdown",
+                    "comparison": "<",
+                    "compare_to": 3000
+                }
+            ]
+        },
+        "type": "origins:self_glow",
+        "use_teams": false,
+        "red": 0,
+        "green": 0.15,
+        "blue": 0
+    },
+    "4": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "succsorigins:imploder/advantage/nuclearmeltdown",
+                    "comparison": ">=",
+                    "compare_to": 3000
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "succsorigins:imploder/advantage/nuclearmeltdown",
+                    "comparison": "<",
+                    "compare_to": 4000
+                }
+            ]
+        },
+        "type": "origins:self_glow",
+        "use_teams": false,
+        "red": 0,
+        "green": 0.2,
+        "blue": 0
+    },
+    "5": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "succsorigins:imploder/advantage/nuclearmeltdown",
+                    "comparison": ">=",
+                    "compare_to": 4000
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "succsorigins:imploder/advantage/nuclearmeltdown",
+                    "comparison": "<",
+                    "compare_to": 5000
+                }
+            ]
+        },
+        "type": "origins:self_glow",
+        "use_teams": false,
+        "red": 0,
+        "green": 0.25,
+        "blue": 0
+    },
+    "6": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "succsorigins:imploder/advantage/nuclearmeltdown",
+                    "comparison": ">=",
+                    "compare_to": 5000
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "succsorigins:imploder/advantage/nuclearmeltdown",
+                    "comparison": "<",
+                    "compare_to": 6000
+                }
+            ]
+        },
+        "type": "origins:self_glow",
+        "use_teams": false,
+        "red": 0,
+        "green": 0.3,
+        "blue": 0
+    },
+    "7": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "succsorigins:imploder/advantage/nuclearmeltdown",
+                    "comparison": ">=",
+                    "compare_to": 6000
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "succsorigins:imploder/advantage/nuclearmeltdown",
+                    "comparison": "<",
+                    "compare_to": 7000
+                }
+            ]
+        },
+        "type": "origins:self_glow",
+        "use_teams": false,
+        "red": 0,
+        "green": 0.35,
+        "blue": 0
+    },
+    "8": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "succsorigins:imploder/advantage/nuclearmeltdown",
+                    "comparison": ">=",
+                    "compare_to": 7000
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "succsorigins:imploder/advantage/nuclearmeltdown",
+                    "comparison": "<",
+                    "compare_to": 8000
+                }
+            ]
+        },
+        "type": "origins:self_glow",
+        "use_teams": false,
+        "red": 0,
+        "green": 0.4,
+        "blue": 0
+    },
+    "9": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "succsorigins:imploder/advantage/nuclearmeltdown",
+                    "comparison": ">=",
+                    "compare_to": 8000
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "succsorigins:imploder/advantage/nuclearmeltdown",
+                    "comparison": "<",
+                    "compare_to": 9000
+                }
+            ]
+        },
+        "type": "origins:self_glow",
+        "use_teams": false,
+        "red": 0,
+        "green": 0.45,
+        "blue": 0
+    },
+    "10": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "succsorigins:imploder/advantage/nuclearmeltdown",
+                    "comparison": ">=",
+                    "compare_to": 9000
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "succsorigins:imploder/advantage/nuclearmeltdown",
+                    "comparison": "<",
+                    "compare_to": 10000
+                }
+            ]
+        },
+        "type": "origins:self_glow",
+        "use_teams": false,
+        "red": 0,
+        "green": 0.5,
+        "blue": 0
+    },
+    "11": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "succsorigins:imploder/advantage/nuclearmeltdown",
+                    "comparison": ">=",
+                    "compare_to": 10000
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "succsorigins:imploder/advantage/nuclearmeltdown",
+                    "comparison": "<",
+                    "compare_to": 10500
+                }
+            ]
+        },
+        "type": "origins:self_glow",
+        "use_teams": false,
+        "red": 0,
+        "green": 0.55,
+        "blue": 0
+    },
+    "12": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "succsorigins:imploder/advantage/nuclearmeltdown",
+                    "comparison": ">=",
+                    "compare_to": 10500
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "succsorigins:imploder/advantage/nuclearmeltdown",
+                    "comparison": "<",
+                    "compare_to": 11000
+                }
+            ]
+        },
+        "type": "origins:self_glow",
+        "use_teams": false,
+        "red": 0,
+        "green": 0.6,
+        "blue": 0
+    },
+    "13": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "succsorigins:imploder/advantage/nuclearmeltdown",
+                    "comparison": ">=",
+                    "compare_to": 11500
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "succsorigins:imploder/advantage/nuclearmeltdown",
+                    "comparison": "<",
+                    "compare_to": 12000
+                }
+            ]
+        },
+        "type": "origins:self_glow",
+        "use_teams": false,
+        "red": 0,
+        "green": 0.7,
+        "blue": 0
+    },
+    "14": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "succsorigins:imploder/advantage/nuclearmeltdown",
+                    "comparison": ">=",
+                    "compare_to": 12000
+                }
+            ]
+        },
+        "type": "origins:self_glow",
+        "use_teams": false,
+        "red": 0.2,
+        "green": 0.8,
+        "blue": 0.2
+    },
+    "name": "Irradiated",
+    "description": "The closer you are to a nuclear meltdown, the more you glow, revealing your imminent destructive potential.",
+    "type": "origins:multiple"
+}

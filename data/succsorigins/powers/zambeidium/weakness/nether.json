@@ -1,0 +1,9 @@
+{
+    "name": "Hellspawn",
+    "description": "Begin your journey in the Nether, a harsh environment filled with challenges and dangers.",
+    "type": "origins:modify_player_spawn",
+    "dimension": "minecraft:the_nether",
+    "biome": "minecraft:warped_forest",
+    "spawn_strategy": "default",
+    "dimension_distance_multiplier": 1
+}

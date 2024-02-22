@@ -1,0 +1,25 @@
+{
+    "name": "Nuclear meltdown",
+    "description": "Trigger a catastrophic explosion, dealing massive damage to your  surroundings. And yourself.",
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "text": "key.origins.primary_active"
+        }
+    ],
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "/execute run summon fireball ~ ~ ~ {NoGravity:1b,Silent:1b,Fire:0,CustomNameVisible:0b,Owner:[I;-813893783,588402362,-2034618167,-1121099748],ExplosionPower:25b,power:[0.0,-0.5,0.0],CustomName:'{\"text\":\"Kinetic Blast\"}',Item:{id:\"minecraft:air\",Count:1b}}"
+    },
+    "cooldown": 12000,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 20
+    },
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": true
+    }
+}

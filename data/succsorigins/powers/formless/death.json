@@ -1,0 +1,22 @@
+{
+    "hidden": true,
+    "type": "origins:action_on_callback",
+    "execute_chosen_when_orb": true,
+    "entity_action_respawned": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:change_resource",
+                "resource": "succsorigins:formless/current_form",
+                "change": 1,
+                "operation": "set"
+            },
+            {
+                "type": "origins:change_resource",
+                "resource": "succsorigins:formless/selected_form_selected_form",
+                "change": 1,
+                "operation": "set"
+            }
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "origins": [
+        "succsorigins:imploder",
+        "succsorigins:smol",
+        "succsorigins:shrunken",
+        "succsorigins:dragon",
+        "succsorigins:sunborn",
+        "succsorigins:american",
+        "succsorigins:zambeidium",
+        "succsorigins:technice",
+        "succsorigins:speed_demon",
+        "succsorigins:realm_shaper",
+        "succsorigins:formless",
+        "succsorigins:tank",
+        "succsorigins:cryo_mage"
+    ],
+    "enabled": true,
+    "gui_title": {}
+}
