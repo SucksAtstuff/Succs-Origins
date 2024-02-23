@@ -10,8 +10,10 @@ Origin Description: The Imploder, as the name suggests, is a highly destructive 
 **Abilities:**
 - Kinetic Blast: Unleash a powerful force that can demolish structures and repel enemies.
 - Nuclear Meltdown: Trigger a catastrophic explosion, dealing massive damage to your  surroundings. And yourself.
+- Kinetic Boost: Gain a high-speed boost in the direction you're looking, allowing for swift navigation and escape. However, be cautious, as the rapid acceleration makes you susceptible to fall damage.
 - Kinetically Charged Hands: Harness the power within your hands to mine stone directly, showcasing your ability to manipulate the environment with ease.
 - Irradiated: The closer you are to a nuclear meltdown, the more you glow, revealing your imminent destructive potential.
+
 
 **Weaknesses:**
 - Reduced Hearts: Despite your destructive capabilities, your health is limited, making you vulnerable.
@@ -183,3 +185,17 @@ Origin Description: The Formless entity is a master of transformation, seamlessl
 **Weaknesses:**
 
 - Water Vulnerability: Despite your remarkable adaptability, water poses a critical threat. The Formless cannot swim and instead sinks in water, initiating immediate drowning.
+
+# **Cryo Mage**
+Origin Description: The Cryo Mage draws power from the icy depths, wielding frosty magic to freeze foes and shape the environment. In the frigid landscapes of Minecraft, this origin reigns supreme, turning the world into a winter wonderland of both beauty and peril.
+
+Abilities:
+
+- Frost Nova: Unleash a burst of icy energy, freezing nearby enemies and creating slippery surfaces, disrupting their movements.
+- Glacial Fortification: Temporarily fortify your surroundings with ice, creating barriers for protection or freezing adversaries in their tracks.
+
+**Weaknesses:**
+
+- Heat Sensitivity: The Cryo Mage's powers are influenced by temperature. In warmer biomes, the effectiveness of their icy abilities diminishes, requiring strategic adaptation to the environmental conditions.
+- Vulnerability to Flames: The chilling nature of the Cryo Mage makes them particularly susceptible to fire. They take additional damage from fire-based attacks, emphasizing the delicate balance between freezing foes and avoiding the scorching power of flames.
+
