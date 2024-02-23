@@ -1,5 +1,6 @@
 {
     "name": "Kinetic Boost",
+    "description": "Gain a high-speed boost in the direction you're looking, allowing for swift navigation and escape. However, be cautious, as the rapid acceleration makes you susceptible to fall damage.",
     "type": "origins:active_self",
     "entity_action": {
         "type": "origins:and",
