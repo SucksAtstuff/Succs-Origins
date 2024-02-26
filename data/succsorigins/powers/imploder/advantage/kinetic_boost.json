@@ -20,7 +20,7 @@
             },
             {
                 "type": "origins:area_of_effect",
-                "radius": 16,
+                "radius": 8,
                 "bientity_condition": {
                     "type": "origins:can_see"
                 },
@@ -53,6 +53,6 @@
         "bar_index": 12
     },
     "key": {
-        "key": "key.loadToolbarActivator"
+        "key": "key.origins.ternary_active"
     }
 }
