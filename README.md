@@ -2,6 +2,7 @@
 - Pehkui
 - Origins
 - Fabric
+- Origins Extra Keybinds
 
 # **The Imploder**
 
