@@ -1,0 +1,6 @@
+{
+    "name": "Valkyrie's Wings",
+    "description": "Manifest permanent spectral wings, granting flight that allows you to soar above the battlefield and traverse the world with divine grace.",
+    "type": "origins:elytra_flight",
+    "render_elytra": true
+}

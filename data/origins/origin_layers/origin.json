@@ -12,7 +12,8 @@
         "succsorigins:realm_shaper",
         "succsorigins:formless",
         "succsorigins:tank",
-        "succsorigins:cryo_mage"
+        "succsorigins:cryo_mage",
+        "succsorigins:valkyrie"
     ],
     "enabled": true,
     "gui_title": {}

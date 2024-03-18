@@ -1,0 +1,33 @@
+{
+    "name": "Warrior's Past",
+    "description": "Spawn equipped with an unbreakable iron sword with Sharpness 3 and an unbreakable shield, reflecting the prowess of your warrior lineage.",
+    "type": "origins:multiple",
+    "key0": {
+        "type": "origins:action_on_callback",
+        "execute_chosen_when_orb": true,
+        "entity_action_lost": {
+            "type": "origins:nothing"
+        },
+        "entity_action_added": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "give @p shield{display:{Name:'{\"text\":\"Valkyrie\\'s Shield\",\"color\":\"dark_purple\",\"bold\":true}'},Unbreakable:1b} 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "give @p iron_sword{display:{Name:'{\"text\":\"Valkyrie\\'s Sword\",\"color\":\"dark_purple\",\"bold\":true}'},Unbreakable:1b,Enchantments:[{id:\"minecraft:sharpness\",lvl:3s}]} 1"
+                }
+            ]
+        },
+        "entity_action_removed": {
+            "type": "origins:execute_command",
+            "command": "clear @p  iron_sword{display:{Name:'{\"text\":\"Valkyrie\\'s Sword\",\"color\":\"dark_purple\",\"bold\":true}'},Unbreakable:1b,Enchantments:[{id:\"minecraft:sharpness\",lvl:3s}]}"
+        },
+        "entity_action_respawned": {
+            "type": "origins:execute_command",
+            "command": "clear @p shield{display:{Name:'{\"text\":\"Valkyrie\\'s Shield\",\"color\":\"dark_purple\",\"bold\":true}'},Unbreakable:1b}"
+        }
+    }
+}

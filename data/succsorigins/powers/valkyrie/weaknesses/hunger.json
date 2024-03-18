@@ -1,0 +1,10 @@
+{
+    "name": "Accelerated Hunger",
+    "description": "Your divine strength demands sustenance, causing you to become hungry twice as fast as others, requiring frequent replenishment to maintain peak performance.",
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 2,
+        "name": "Increased exhaustion"
+    }
+}

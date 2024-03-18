@@ -1,0 +1,12 @@
+{
+    "name": "Vulnerability to Flames",
+    "description": "The flames of earthly elements prove to be a bane to the Valkyrie. You take increased damage from fire and lava, reminding you of the mortal vulnerabilities beneath your divine exterior.",
+    "condition": {
+        "type": "origins:on_fire"
+    },
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 1.5
+    }
+}

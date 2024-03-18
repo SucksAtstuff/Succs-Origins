@@ -1,0 +1,6 @@
+{
+    "name": "Aquatic Burden",
+    "description": "Despite your celestial origins, you are burdened by the weight of your armor and weaponry, causing you to sink in water faster than others.",
+    "hidden": true,
+    "type": "origins:ignore_water"
+}

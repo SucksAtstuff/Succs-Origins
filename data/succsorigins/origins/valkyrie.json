@@ -1,0 +1,17 @@
+{
+    "name": "Valkyrie",
+    "description": "The Valkyrie is a formidable warrior, descended from the heavens with a legacy of valor and strength. Armed with divine weaponry and blessed with supernatural abilities, this being strikes fear into the hearts of adversaries across the realms.",
+    "powers": [
+        "succsorigins:valkyrie/advantages/weapons",
+        "succsorigins:valkyrie/advantages/rage",
+        "succsorigins:valkyrie/advantages/wings",
+        "succsorigins:valkyrie/advantages/dash",
+        "succsorigins:valkyrie/weaknesses/hunger",
+        "succsorigins:valkyrie/weaknesses/sink_in_water",
+        "succsorigins:valkyrie/weaknesses/weak_to_fire"
+    ],
+    "icon": {
+        "item": "minecraft:feather"
+    },
+    "impact": 2
+}
