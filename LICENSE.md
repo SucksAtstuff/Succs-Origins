@@ -10,7 +10,7 @@ The above copyright notice and this permission notice shall be included in all c
 
 Restriction on Distribution of Modifications:
 
-Unless explicitly authorized in writing by the original author [Your Name], the distribution of any modifications to the Software is prohibited. This includes, but is not limited to, distributing modified versions of the Software in source code or binary form, whether for commercial or non-commercial purposes.
+Unless explicitly authorized in writing by the original author IsuckAtEverything, the distribution of any modifications to the Software is prohibited. This includes, but is not limited to, distributing modified versions of the Software in source code or binary form, whether for commercial or non-commercial purposes.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
